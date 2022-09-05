@@ -12,7 +12,7 @@ class SliderController extends Controller
         return view('admin.slider.index');
     }
     public function save(Request $request){
-
+    
     $file =$request->file('image');
     $filename = 'image'. time().'.'.$request->image->extension();
     $file->move("upload/",$filename);

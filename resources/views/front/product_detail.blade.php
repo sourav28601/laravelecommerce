@@ -1,5 +1,5 @@
 @extends('front.master')
-@section('content')
+@section('content') 
 <section class="page-title-area">
     <div class="container">
         <div class="page-title-content">
