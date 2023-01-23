@@ -11,7 +11,7 @@
                             <div class="d-flex align-items-center">
                                 <a href="products-left-sidebar.html" class="default-btn"><i
                                         class="flaticon-trolley"></i> Shop Now</a>
-                                <span class="price">$49.00</span>
+                                <span class="price">₹49.00</span>
                             </div>
                         </div>
                     </div>
@@ -27,7 +27,7 @@
                             <div class="d-flex align-items-center">
                                 <a href="products-left-sidebar.html" class="default-btn"><i
                                         class="flaticon-trolley"></i> Shop Now</a>
-                                <span class="price">$69.00</span>
+                                <span class="price">₹69.00</span>
                             </div>
                         </div>
                     </div>

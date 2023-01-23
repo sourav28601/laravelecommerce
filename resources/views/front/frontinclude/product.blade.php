@@ -18,7 +18,7 @@
                 <div class="content">
                     <h3><a href="{{url('/product_detail/'.$p->id)}}">{{$p->product_name}}</a></h3>
                     <div class="price">
-                        <span class="new-price">Rs.{{$p->product_price}}</span>
+                        <span class="new-price">₹{{$p->product_price}}</span>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     <div class="content">
                         <span class="sub-title">New Arrivals</span>
                         <h3>Hand Washer</h3>
-                        <span class="discount"><span>up to</span> $49.00</span>
+                        <span class="discount"><span>up to</span> ₹ 49.00</span>
                         <a href="products-left-sidebar.html" class="link-btn">Shop Now <i
                                 class="flaticon-next"></i></a>
                     </div>
@@ -118,7 +118,7 @@
                     <div class="content">
                         <h3><a href="#">{{$p->product_name}}</a></h3>
                         <div class="price">
-                            <span class="new-price">${{$p->product_price}}</span>
+                            <span class="new-price">₹{{$p->product_price}}</span>
                         </div>
                     </div>
                 </div>

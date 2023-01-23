@@ -1,5 +1,6 @@
 @extends('front.master')
 @section('content') 
+
 <section class="page-title-area">
     <div class="container">
         <div class="page-title-content">
@@ -32,7 +33,7 @@
                 <div class="products-details-desc">
                     <h3>{{$product->product_name}}</h3>
                     <div class="price">
-                        <span class="new-price">Rs.{{$product->product_price}}/-</span>
+                        <span class="new-price">₹{{$product->product_price}}/-</span>
                     </div>
                     {{-- <div class="products-review">
                         <div class="rating">
@@ -381,6 +382,8 @@
         </div>
     </div> --}}
 </section>
+
+
 
 
 

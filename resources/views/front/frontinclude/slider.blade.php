@@ -14,7 +14,7 @@
                                     <div class="d-flex align-items-center">
                                         <a href="#" class="default-btn"><i class="flaticon-trolley"></i> Add To
                                             Cart</a>
-                                        <span class="price">$50.00</span>
+                                        <span class="price">₹ 999.00</span>
                                     </div>
                                 </div>
                             </div>

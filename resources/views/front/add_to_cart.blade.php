@@ -39,7 +39,7 @@
                                     <a href="#">{{ $ct->product_name }}</a>
                                 </td>
                                 <td class="product-price">
-                                    <span class="unit-amount">Rs.{{ $ct->product_price }}</span>
+                                    <span class="unit-amount">₹{{ $ct->product_price }}</span>
                                 </td>
                                 <td class="product-quantity">
                                     <div class="input-counter bg-dark text-white">
@@ -51,7 +51,7 @@
                                 </td>
                                 <td class="product-subtotal">
                                     <span
-                                        class="subtotal-amount">Rs.{{ $ct->product_price * $ct->product_quantity }}</span>
+                                        class="subtotal-amount">₹{{ $ct->product_price * $ct->product_quantity }}</span>
                                     <a href="{{ url('/cart/delete/' . $ct->id) }}" class="remove"><i
                                             class='bx bx-trash'></i></a>
                                 </td>
@@ -107,9 +107,9 @@
                 <h3>Cart Totals</h3>
                 <ul>
                     @isset($valueCoupon)
-                        <li>Total <span><?php echo $total_amount - $valueCoupon; ?></span></li>
+                        <li>Total <span>₹<?php echo $total_amount - $valueCoupon; ?></span></li>
                     @else
-                        <li>Total <span><?php echo $total_amount; ?></span></li>
+                        <li>Total <span>₹<?php echo $total_amount; ?></span></li>
                     @endisset
                 </ul>
 

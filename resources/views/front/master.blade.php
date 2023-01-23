@@ -632,7 +632,7 @@
                         <span class="Total">Rs.<?php echo $total_amount + $Shipping; ?></span>
                     </div>
                     <div class="products-cart-btn">
-                        <a href="#" class="default-btn">Proceed to Checkout</a>
+                        <a href="{{ url('/checkout') }}" class="default-btn">Proceed to Checkout</a>
                     </div>
                 </div>
             </div>

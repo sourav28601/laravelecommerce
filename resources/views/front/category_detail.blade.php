@@ -64,7 +64,7 @@
                             <div class="content">
                                 <h3><a href="{{ url('/product_detail/' . $p->id) }}">{{ $p->product_name }}</a></h3>
                                 <div class="price">
-                                    <span class="new-price">Rs.{{ $p->product_price }}</span>
+                                    <span class="new-price">₹{{ $p->product_price }}</span>
                                 </div>
                             </div>
                         </div>
